@@ -2,7 +2,9 @@
 
 /**
  * main - Entry point
+ *
  * Description: This program prints the following string
+ *
  * return - if program is succesful return 
  */
 
