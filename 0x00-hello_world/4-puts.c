@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
- * This program prints the following string
+/**
  * main - Entry point
- * return - if program is succesful return 0
+ * Description: This program prints the following string
+ * return - if program is succesful return 
  */
 
 int main(void)
