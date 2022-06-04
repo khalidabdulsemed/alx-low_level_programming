@@ -6,7 +6,7 @@
  *    * Description: prints the below program
  *     *
  *      * Return 0 if the program works fine
- */
+ *       */
 
 int main(void)
 {
