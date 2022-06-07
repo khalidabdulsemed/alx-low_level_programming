@@ -1,16 +1,13 @@
-#include "main.h"
-#include <stdio.h>
-/**
- *  *  *  * main - Entry point
- *   *   *   *
- *    *    *    * Description: determines the last digit of a number
- *     *     *     *
- *      *      *      * Return: Always 0 (Success)
- */
+#include <unistd.h>
 
-int main(void)
+/**
+ *  * _putchar - writes the character c to stdout
+ *   * @c: The character to print
+ *    *
+ *     * Return: On success 1.
+ *      * On error, -1 is returned, and errno is set appropriately.
+ *       */
+int _putchar(char c)
 {
-	char x[12] = "_putchar";
-	printf("%s\n",x);
-	return (0);
+		return (write(1, &c, 1));
 }
