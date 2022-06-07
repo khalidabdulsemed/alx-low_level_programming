@@ -11,6 +11,6 @@
 int main(void)
 {
 	char x[12] = "_putchar";
-	printf("%c\n",x);
+	printf("%s\n",x);
 	return (0);
 }
