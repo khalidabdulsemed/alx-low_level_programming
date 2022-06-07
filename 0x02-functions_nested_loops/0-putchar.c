@@ -12,6 +12,11 @@
 
 int main(void)
 {
-	        printf("_putchar");
-		return(0);
+	        char x[10] =" _putchar";
+		int i = 0;
+
+		for (i = 0; i<9; i++)
+		{
+			_putchar(x[i]);
+		}
 }
