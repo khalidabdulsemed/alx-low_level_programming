@@ -14,9 +14,9 @@ int main(void)
 {
 	        int a = 0;
 		
-		while (a<1)
+		while (a < 1)
 		{
-		putchr("_putchar");
+		putchar("_putchar");
 		a++;
 		}
 }
