@@ -3,11 +3,11 @@
 #include <time.h>
 
 /**
- *  *  *  * main - Entry point
- *   *   *   *
- *    *    *    * Description: a simple if and else statement
- *     *     *     *
- *      *      *      * Return: Always 0 (Success)
+ *  *  *  *  * main - Entry point
+ *   *   *   *   *
+ *    *    *    *    * Description: a simple if and else statement
+ *     *     *     *     *
+ *      *      *      *      * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -22,4 +22,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}	
+}
