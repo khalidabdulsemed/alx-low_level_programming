@@ -11,5 +11,5 @@
 
 int main(void)
 {
-	putchar("abcdefghijklmnopqrstuvwxyz");
+	_putchar("abcdefghijklmnopqrstuvwxyz");
 }
