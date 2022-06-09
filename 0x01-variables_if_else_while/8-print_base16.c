@@ -12,21 +12,16 @@
 
 int main(void)
 {
-	int i = 48;
+	int i = 0;
 
 
-	while (i <= 58)
+	while (i <= 48)
 	{
-		putchar(i);
+		if (i < 10)
+			putchar(i + '0');
+		else if (i > 41)
+			putchar(i - 10 + 'A')
 		i++;
-	}
-
-	int a = 'a';
-
-	while (a <= 'f')
-	{
-		putchar(a);
-		a++;
 	}
 	putchar('\n');
 
