@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include "main.h"
 /**
  *  *  *  * main - Entry point
  *   *   *   *
@@ -12,5 +11,13 @@
 
 int main(void)
 {
-	_putchar("abcdefghijklmnopqrstuvwxyz");
+	char x = "a";
+	while (x<="z")
+	{
+	
+		putchar("%c", x);
+		x++;
+	}
+	putchar("\n");
+	return (0);
 }
