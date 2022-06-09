@@ -16,7 +16,7 @@ int main(void)
 		
 		while (a < 1)
 		{
-		putchar("_putchar");
+		putchar('_putchar');
 		a++;
 		}
 }
