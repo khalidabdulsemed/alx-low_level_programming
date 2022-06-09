@@ -21,7 +21,7 @@ int main(void)
 		i++;
 	}
 
-	char a = 'a';
+	int a = 'a';
 
 	while (a <= 'f')
 	{
