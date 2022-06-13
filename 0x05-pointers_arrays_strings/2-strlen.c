@@ -7,22 +7,20 @@
  *    * Return: length of a string
  */
 
-int _strlen(char *s)
-}
-	int len;
-	len = strlen(*str);
-	
-	return (len);
-}
-
-
+int len(char *s);
 int main(void)
 {
 	    char *str;
-	        int len;
+	    int len;
 
-		    str = "My first strlen!";
-		        len = _strlen(str);
-			    printf("%d\n", len);
-			        return (0);
+	    str = "My first strlen!";
+	    len = len(str);
+	    printf("%d\n", len);
+}
+
+int len(char *s)
+{
+	char s;
+	int f;
+	f = strlen(*s);
 }
