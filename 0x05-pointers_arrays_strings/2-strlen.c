@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *  * _strlen - length of a string
@@ -7,7 +8,21 @@
  */
 
 int _strlen(char *s)
+}
+	int len;
+	len = strlen(*str);
+	
+	return (len);
+}
+
+
+int main(void)
 {
-	char *s = str;
-	strlen(*str);
+	    char *str;
+	        int len;
+
+		    str = "My first strlen!";
+		        len = _strlen(str);
+			    printf("%d\n", len);
+			        return (0);
 }
