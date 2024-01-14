@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *prints out the name of the file.
  *main -  prints file name.
  *@argc:  argument count.
  *@argv: argument vector.
@@ -13,3 +12,5 @@ int main(int argc, char *argv[])
 	_putchar("%s", argv[0]);
 	return (0);
 }
+
+
